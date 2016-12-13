@@ -1,0 +1,4 @@
+sbin/vpnd
+bin/vpnd-keygen
+man/man8/vpnd.8.gz
+man/man8/vpnd-keygen.8.gz

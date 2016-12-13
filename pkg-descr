@@ -1,0 +1,17 @@
+vpnd provides an encrypted virtual connection between two hosts, allowing
+the creation of secure network topologies. It uses NaCl for encryption and
+frequently changes the shared key used for communicating, thereby providing
+forward secrecy.
+
+vpnd supports two VPN use cases:
+
+- Network Gateway Mode: An individual client host needing access
+  to a remote network, and a security gateway providing access to
+  one or more such clients. This allows individual clients to
+  access a main network.
+
+- Host/Host Gateway Mode: A pair of hosts acting as security
+  gateways that connect two internal networks together via a
+  secure link. This connects all the hosts in two sites together.
+
+WWW: https://github.com/cmusser/vpnd
