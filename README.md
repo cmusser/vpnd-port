@@ -20,7 +20,7 @@ This is the BSD Ports system configuration project for vpnd.
 
     `sudo make makesum`
 
-   This write the distinfo file, which is in version control. Make sure you commit this
+   This writes the distinfo file, which is in version control. Make sure you commit this
    when done.
 
    In the uncommon case where you're rebuilding a release, but reusing the same version
