@@ -35,6 +35,7 @@ This is the BSD Ports system configuration project for vpnd.
 3. Go through package building steps (these are taken from the FreeBSD Porters Handbook):
 
    ```
+   sudo make clean
    sudo make stage
    sudo make check-orphans
    sudo make package
