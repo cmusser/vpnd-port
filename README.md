@@ -15,8 +15,9 @@ This is the BSD Ports system configuration project for vpnd.
    sudo make dports-create-shallow
    ```
 
-2. Bump the PORTVERSION in the Makefile to match the Git tag of the new version and
-   run the following:
+2. Bump the PORTVERSION in the Makefile to match the Git tag of the new version.
+
+3. Run the following:
 
     `sudo make makesum`
 
@@ -32,7 +33,7 @@ This is the BSD Ports system configuration project for vpnd.
    to a different location that's writable by a normal user. On FreeBSD, it's done in `work`
    in the current directory, so `sudo(8)` isn't needed. 
 
-3. Go through package building steps (these are taken from the FreeBSD Porters Handbook):
+4. Go through package building steps (these are taken from the FreeBSD Porters Handbook):
 
    ```
    sudo make clean
@@ -42,9 +43,9 @@ This is the BSD Ports system configuration project for vpnd.
    sudo make install
    sudo make deinstall
    ```
-4. Install the built package:
+5. Install the built package:
    ```
-   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.1.txz
+   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.2.txz
    ```
 
 ## General Notes on Makefile Requirements for Software Packaged With Ports
