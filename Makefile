@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	vpnd
-PORTVERSION=	1.1.2
+PORTVERSION=	1.1.3
 CATEGORIES=	security
 USE_GITHUB=	yes
 GH_ACCOUNT=	cmusser
