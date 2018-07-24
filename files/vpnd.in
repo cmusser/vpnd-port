@@ -16,6 +16,6 @@ load_rc_config $name
 : ${vpnd_pidfile="/var/run/${name}.pid"}
 
 command="/usr/local/sbin/${name}"
-pidfile="${vpndd_pidfile}"
+pidfile="${vpnd_pidfile}"
 
 run_rc_command $*
