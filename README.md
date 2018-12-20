@@ -45,7 +45,7 @@ This is the BSD Ports system configuration project for vpnd.
    ```
 5. Install the built package:
    ```
-   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.3.txz
+   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.5.txz
    ```
 
 ## General Notes on Makefile Requirements for Software Packaged With Ports
