@@ -18,9 +18,10 @@ This is the BSD Ports system configuration project for vpnd.
 2. Bump the PORTVERSION in the Makefile to match the Git tag of the new version.
 
 3. Run the following:
-
-    `sudo make makesum`
-
+   ```
+    sudo make makesum
+	```
+	
    This writes the distinfo file, which is in version control. Make sure you commit this
    when done.
 
@@ -45,7 +46,7 @@ This is the BSD Ports system configuration project for vpnd.
    ```
 5. Install the built package:
    ```
-   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.5.txz
+   sudo pkg install /usr/obj/dports/src/vpnd-port/pkg/vpnd-1.1.6.txz
    ```
 
 ## General Notes on Makefile Requirements for Software Packaged With Ports
