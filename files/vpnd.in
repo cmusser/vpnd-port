@@ -14,8 +14,10 @@ load_rc_config $name
 
 : ${vpnd_enable="NO"}
 : ${vpnd_pidfile="/var/run/${name}.pid"}
+: ${vpnd_log="/var/log/vpnd.log"}
 
 command="/usr/local/sbin/${name}"
+start_cmd="/usr/sbin/daemon -p ${vpnd_pidfile} -f -o ${vpnd_log} ${vpnd_command}"
 pidfile="${vpnd_pidfile}"
 
 run_rc_command $*
